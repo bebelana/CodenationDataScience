@@ -1,0 +1,33 @@
+============================= test session starts ==============================
+platform linux -- Python 3.7.3, pytest-5.0.1, py-1.8.0, pluggy-0.12.0 -- /home/ana/anaconda3/bin/python
+cachedir: .pytest_cache
+rootdir: /home/ana/codenation/data-science-1
+plugins: openfiles-0.3.2, arraydiff-0.3, remotedata-0.3.1, doctestplus-0.3.0
+collecting ... collected 5 items
+
+test_submit.py::test_q1 PASSED                                           [ 20%]
+test_submit.py::test_q2 PASSED                                           [ 40%]
+test_submit.py::test_q3 PASSED                                           [ 60%]
+test_submit.py::test_q4 PASSED                                           [ 80%]
+test_submit.py::test_q5 PASSED                                           [100%]
+
+=============================== warnings summary ===============================
+/home/ana/anaconda3/lib/python3.7/site-packages/parso/python/tree.py:46
+  /home/ana/anaconda3/lib/python3.7/site-packages/parso/python/tree.py:46: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+    from collections import Mapping
+
+/home/ana/anaconda3/lib/python3.7/site-packages/ipywidgets/widgets/widget.py:280
+  /home/ana/anaconda3/lib/python3.7/site-packages/ipywidgets/widgets/widget.py:280: DeprecationWarning: Widget registration using a string name has been deprecated. Widget registration now uses a plain `@register` decorator.
+    warnings.warn("Widget registration using a string name has been deprecated. Widget registration now uses a plain `@register` decorator.", DeprecationWarning)
+
+/home/ana/anaconda3/lib/python3.7/site-packages/ipywidgets/widgets/widget_upload.py:45
+  /home/ana/anaconda3/lib/python3.7/site-packages/ipywidgets/widgets/widget_upload.py:45: DeprecationWarning: Traits should be given as instances, not types (for example, `Int()`, not `Int`). Passing types is deprecated in traitlets 4.1.
+    metadata = List(Dict, help='List of file metadata').tag(sync=True)
+
+/home/ana/anaconda3/lib/python3.7/site-packages/ipywidgets/widgets/widget_upload.py:46
+  /home/ana/anaconda3/lib/python3.7/site-packages/ipywidgets/widgets/widget_upload.py:46: DeprecationWarning: Traits should be given as instances, not types (for example, `Int()`, not `Int`). Passing types is deprecated in traitlets 4.1.
+    data = List(Bytes, help='List of file content (bytes)').tag(sync=True, from_json=content_from_json)
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+------ generated xml file: /home/ana/codenation/data-science-1/output.xml ------
+==================== 5 passed, 4 warnings in 22.91 seconds =====================
